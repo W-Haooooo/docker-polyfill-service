@@ -56,7 +56,7 @@ jobs:
       with:
         repository: ${{ env.SOURCE_REPO }}
         ref: ${{ steps.check.outputs.ref }}
-        path: polyfill-service
+        path: polyfill-service-self-hosted
     - name: Set up QEMU
       if: ${{ steps.check.outputs.skip == 'false' }}
       uses: docker/setup-qemu-action@v2
