@@ -16,7 +16,7 @@ on:
 
 env:
   DOCKER_IMAGE_NAME: hao0o0/polyfill-service
-  SOURCE_REPO: JakeChampion/polyfill-service
+  SOURCE_REPO: JakeChampion/polyfill-service-self-hosted
 
 jobs:
   build:
