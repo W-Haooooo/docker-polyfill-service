@@ -1,4 +1,4 @@
-name: Build and Push text
+name: Build and Push polyfill-service-self-hosted
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Push
+    name: Build and Push polyfill-service-self-hosted
     steps:
     - name: Check latest release
       id: check
